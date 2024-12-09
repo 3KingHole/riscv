@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="riscv_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="riscv_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="371539218fs"></ZoomEndTime>
+      <Cursor1Time time="37583000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/riscv_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/rom_addr" type="array">
+      <obj_property name="ElementShortName">rom_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/riscv_top/inst_mem_inst/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/riscv_top/inst_mem_inst/mem_rom" type="array">
+      <obj_property name="ElementShortName">mem_rom[255:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rom[255:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/blt" type="logic">
+      <obj_property name="ElementShortName">blt</obj_property>
+      <obj_property name="ObjectShortName">blt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/ALU_result" type="array">
+      <obj_property name="ElementShortName">ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/ALUctl" type="array">
+      <obj_property name="ElementShortName">ALUctl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUctl[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/lui" type="logic">
+      <obj_property name="ElementShortName">lui</obj_property>
+      <obj_property name="ObjectShortName">lui</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/U_type" type="logic">
+      <obj_property name="ElementShortName">U_type</obj_property>
+      <obj_property name="ObjectShortName">U_type</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs" type="array">
+      <obj_property name="ElementShortName">regs[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[31:0][31:0]</obj_property>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[31]" type="array">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[30]" type="array">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[29]" type="array">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[28]" type="array">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[27]" type="array">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[26]" type="array">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[25]" type="array">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[24]" type="array">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[23]" type="array">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[22]" type="array">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[21]" type="array">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[20]" type="array">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[19]" type="array">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[18]" type="array">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[17]" type="array">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[16]" type="array">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[15]" type="array">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[14]" type="array">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[13]" type="array">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[12]" type="array">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[11]" type="array">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[10]" type="array">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[9]" type="array">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[8]" type="array">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/id_stage_inst/registers_inst/regs[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/if_stage_inst/pc_inst/pc_new" type="array">
+      <obj_property name="ElementShortName">pc_new[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_new[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/riscv_tb/riscv_top/riscv_inst/datapath_inst/if_stage_inst/pc_inst/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+   </wvobject>
+</wave_config>
